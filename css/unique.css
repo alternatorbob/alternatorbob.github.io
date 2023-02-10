@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(245, 245, 245);
+  overflow: hidden;
+}
+
+#rainbow-zipper {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.title {
+  text-align: center;
+}
+
+.text-l,
+.text-m,
+.text-s {
+  font-weight: 700;
+}
+
+.text-l {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.text-m {
+  font-size: 26px;
+  line-height: 26px;
+}
+
+.text-s {
+  /* font-size: 11pt; */
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.justified {
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 660px;
+}
+
+.text-quote {
+  font-family: "ABC-Monument-Grotesk-Medium";
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.grotesk-medium {
+  font-family: "ABC-Monument-Grotesk-Medium";
+}
+.grotesk-heavy {
+  font-family: "ABC-Monument-Grotesk-Heavy";
+}
+.grotesk-italic {
+  font-family: "ABC-Monument-Grotesk-MediumItalic";
+}
+
+.class-code {
+  margin-top: -4px;
+}
+
+#main-title {
+  margin-top: 52px;
+}
+
+.img-scale {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.section-img {
+  padding: 0;
+}
+
+.section-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.gap {
+  width: 62px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-14 {
+  padding-top: 14px;
+}
+
+.mw-600 {
+  max-width: 600px;
+}
+p {
+  max-width: 500px;
+}
+
+.hidden {
+  display: none;
+}
+
+.index-section {
+  display: block;
+}
